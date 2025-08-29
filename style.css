@@ -1,0 +1,54 @@
+body {
+  background-color: #001f3f;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 縦方向中央寄せ */
+  align-items: center;     /* 横方向中央寄せ */
+  margin: 0;
+  height: 100vh;           /* 画面全体を使う */
+}
+
+.title {
+  background: linear-gradient(to bottom, yellow, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#game-container {
+  position: relative;
+}
+
+#game {
+  background-color: black;
+  border: 4px solid yellow;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#overlay.hidden {
+  display: none;
+}
+
+#start-button {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #333;
+  border: 2px solid yellow;
+  cursor: pointer;
+}
