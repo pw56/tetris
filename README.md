@@ -23,6 +23,7 @@ ChatGPTを用いて作成したウェブアプリのテトリスです。
 
 ## 使用素材
 - 効果音:
-> [効果音ラボ](https://soundeffect-lab.info)
+> [効果音ラボ](https://soundeffect-lab.info)  
 > [失敗、ゲームオーバー](https://dova-s.jp/se/play601.html)
-- BGM: [Archetype:Moonlight](https://dova-s.jp/bgm/play22262.html)
+- BGM:
+> [Archetype:Moonlight](https://dova-s.jp/bgm/play22262.html)
